@@ -1,0 +1,25 @@
+.profiles {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #1640a3;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #1c2029,#181d27);
+    padding: 20px;
+    width: 400px;
+    height: 100px;
+}
+.profiles > a > img {
+    width: 60px;
+    height: 60px;
+    float: left;
+    padding: 0;
+    margin-right: 10px;
+    border-radius: 30px;
+}
+h2 {
+    font-size: 18px;
+}
+h2::first-letter {
+    color: #1640a3;
+    font-size: 20px;
+}
